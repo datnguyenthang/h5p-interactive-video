@@ -722,6 +722,14 @@
         "description": "Enabling this options will disable user video navigation through default controls."
       },
       {
+        "name": "forceViewAllVideo",
+        "type": "boolean",
+        "default": false,
+        "label": "Người dùng bắt buộc phải xem hết video",
+        "importance": "low",
+        "description": "Bật chức năng này để bắt buộc người dùng phải xem hết video (Lưu ý:'Prevent skipping forward in a video' phải được chọn để vô hiệu hóa điều khiển video)."
+      },
+      {
         "name": "deactivateSound",
         "type": "boolean",
         "default": false,
